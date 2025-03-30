@@ -1,1 +1,15 @@
-Aqui vai ficar explicação do projeto
+# Descrição Geral do Projeto: 
+Pretende-se considerar uma cidade com várias antenas. Cada antena é sintonizada numa frequência específica indicada por um caracter. O mapa das antenas com as suas localizações (coordenadas na matriz) e frequências é representado através de uma matriz. Considerando que o sinal de cada antena aplica um efeito nefasto em localizações específicas L com base nas frequências de ressonância das antenas. Em particular, o efeito nefasto ocorre em qualquer localização L que esteja perfeitamente alinhada com duas antenas da mesma frequência - mas apenas quando uma das antenas está duas vezes mais distante que a outra. Isso significa que para qualquer par de antenas com a mesma frequência, existem duas localizações, uma de cada lado das antenas.
+
+
+# Objetivos Específicos: 
+Nesta primeira fase é pedido que considerando a contextualização acima, procuremos implementar as funcionalidades seguintes: 
+	Definição de uma estrutura de dados ED, para a representação das antenas, sob a forma de uma lista ligada simples. Cada registo da lista ligada deverá conter a frequência de ressonância de uma antena e suas coordenadas; 
+	Carregamento para uma estrutura de dados ED dos dados das antenas constantes num ficheiro de texto. A operação deverá considerar matrizes de caracteres com qualquer dimensão. 
+
+Implementar operações de manipulação da lista ligada do tipo ED, incluindo: 
+	     a) Inserção de uma nova antena na lista ligada; 
+         Remoção de uma antena constante na lista ligada; 
+	     b) Dedução automática das localizações com efeito nefasto e respetiva representação sob a forma de uma lista ligada; 
+	     c) Listagem de forma tabular na consola das antenas e localizações com efeito nefasto. 
+

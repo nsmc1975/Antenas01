@@ -47,11 +47,11 @@ int main() {
     listarAntenas(inicio);
 
 	printf("gravar binario\n");
-    GravarBinario("antenas1.bin", inicio);
+    gravarBinario("antenas1.bin", inicio);
 
     //ler bin e imprimir ecran
 	printf("lido do binario e escrever na struct inicio2:\n");
-	inicio2 = LerBinario("antenas1.bin");
+	inicio2 = lerBinario("antenas1.bin");
 	listarAntenas(inicio2);
 
     //tratar nefastos

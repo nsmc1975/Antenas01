@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Globais</title>
+<title>My Project: Descrição Geral do Projeto:</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,7 +70,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('globals.html',''); initResizable(true); });
+$(function(){initNavTree('md__c_1_2_users_2user_2source_2repos_2_antenas01_2_r_e_a_d_m_e.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -95,17 +95,18 @@ $(function(){initNavTree('globals.html',''); initResizable(true); });
 </div>
 </div>
 
+<div><div class="header">
+  <div class="headertitle"><div class="title">Descrição Geral do Projeto:</div></div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Lista de todas as funções, variáveis, definições, enumerações e definições de tipo documentadas com referência para a respectiva documentação:</div><ul>
-<li>carregarFicheiro()&#160;:&#160;<a class="el" href="funcoes_8c.html#a2aea4bc31a61b06320c0c7994d0ff24b">funcoes.c</a>, <a class="el" href="funcoes_8h.html#a2aea4bc31a61b06320c0c7994d0ff24b">funcoes.h</a></li>
-<li>criarAntena()&#160;:&#160;<a class="el" href="funcoes_8c.html#a45d602813bfa39b2875ba12549e962c5">funcoes.c</a>, <a class="el" href="funcoes_8h.html#a45d602813bfa39b2875ba12549e962c5">funcoes.h</a></li>
-<li>gravarBinario()&#160;:&#160;<a class="el" href="funcoes_8c.html#a8303ca6f152616711b50812715e2bcb7">funcoes.c</a>, <a class="el" href="funcoes_8h.html#a8303ca6f152616711b50812715e2bcb7">funcoes.h</a></li>
-<li>inserirAntena()&#160;:&#160;<a class="el" href="funcoes_8c.html#a48fed8d5c3d07a556340b02ea94c2980">funcoes.c</a>, <a class="el" href="funcoes_8h.html#a48fed8d5c3d07a556340b02ea94c2980">funcoes.h</a></li>
-<li>lerBinario()&#160;:&#160;<a class="el" href="funcoes_8c.html#a497bc9c94109511210071c0751c5163c">funcoes.c</a>, <a class="el" href="funcoes_8h.html#a497bc9c94109511210071c0751c5163c">funcoes.h</a></li>
-<li>listarAntenas()&#160;:&#160;<a class="el" href="funcoes_8c.html#a00a0630f569a848afaa336084a51546c">funcoes.c</a>, <a class="el" href="funcoes_8h.html#a00a0630f569a848afaa336084a51546c">funcoes.h</a></li>
-<li>removerAntena()&#160;:&#160;<a class="el" href="funcoes_8c.html#afc076f372a5739f4f6ca94531a4bb889">funcoes.c</a>, <a class="el" href="funcoes_8h.html#afc076f372a5739f4f6ca94531a4bb889">funcoes.h</a></li>
-</ul>
-</div><!-- contents -->
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a></p>
+<p>Pretende-se considerar uma cidade com várias antenas. Cada antena é sintonizada numa frequência específica indicada por um caracter. O mapa das antenas com as suas localizações (coordenadas na matriz) e frequências é representado através de uma matriz. Considerando que o sinal de cada antena aplica um efeito nefasto em localizações específicas L com base nas frequências de ressonância das antenas. Em particular, o efeito nefasto ocorre em qualquer localização L que esteja perfeitamente alinhada com duas antenas da mesma frequência - mas apenas quando uma das antenas está duas vezes mais distante que a outra. Isso significa que para qualquer par de antenas com a mesma frequência, existem duas localizações, uma de cada lado das antenas.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Objetivos Específicos:</h1>
+<p>Nesta primeira fase é pedido que considerando a contextualização acima, procuremos implementar as funcionalidades seguintes: Definição de uma estrutura de dados ED, para a representação das antenas, sob a forma de uma lista ligada simples. Cada registo da lista ligada deverá conter a frequência de ressonância de uma antena e suas coordenadas; Carregamento para uma estrutura de dados ED dos dados das antenas constantes num ficheiro de texto. A operação deverá considerar matrizes de caracteres com qualquer dimensão.</p>
+<p>Implementar operações de manipulação da lista ligada do tipo ED, incluindo: a) Inserção de uma nova antena na lista ligada; Remoção de uma antena constante na lista ligada; b) Dedução automática das localizações com efeito nefasto e respetiva representação sob a forma de uma lista ligada; c) Listagem de forma tabular na consola das antenas e localizações com efeito nefasto. </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

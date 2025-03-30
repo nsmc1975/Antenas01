@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nefasto_0',['Nefasto',['../struct_nefasto.html',1,'']]]
+  ['main_2ec_0',['main.c',['../main_8c.html',1,'']]]
 ];

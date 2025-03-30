@@ -36,8 +36,8 @@ void listarNefastos(Nefasto* lista);
 
 
 //funções com FICHEIROS
-bool GravarBinario(char* nomeFicheiro, Antena* h);
-Antena* LerBinario(char* nomeFicheiro);
+bool gravarBinario(char* nomeFicheiro, Antena* h);
+Antena* lerBinario(char* nomeFicheiro);
 
 
 

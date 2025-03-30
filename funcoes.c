@@ -221,12 +221,12 @@ void listarNefastos(Nefasto* lista) {
 
 #pragma region FICHEIROS BINARIOS
 
-// ========================= Ficheiros ============================
+// ============== Ficheiros binarios ==============
 /**
 * @brief Preservar dados em ficheiro
 * Grava localização das antenas em Ficheiro binario
 */
-bool GravarBinario(char* nomeFicheiro, Antena* h) {
+bool gravarBinario(char* nomeFicheiro, Antena* h) {
     FILE* fp;
 
     if (h == NULL) return false;
@@ -251,7 +251,7 @@ bool GravarBinario(char* nomeFicheiro, Antena* h) {
 /**
 * @brief Lê informação de ficheiro
 */
-Antena* LerBinario(char* nomeFicheiro) {
+Antena* lerBinario(char* nomeFicheiro) {
     FILE* fp;
     Antena* h = NULL;
     Antena* aux;

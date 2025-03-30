@@ -1,0 +1,68 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {nil}{}\relax 
+\contentsline {chapter}{\numberline {1}Descrição Geral do Projeto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos Específicos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Índice das estruturas de dados}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Estruturas de dados}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Índice dos ficheiros}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lista de ficheiros}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Documentação da estruturas de dados}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Referência à estrutura Antena}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Descrição detalhada}{7}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Documentação dos campos e atributos}{7}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}frequencia}{7}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}prox}{7}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}x}{7}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}y}{8}{subsubsection.4.1.2.4}%
+\contentsline {section}{\numberline {4.2}Referência à estrutura Antena\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiro}{8}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Descrição detalhada}{8}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Documentação dos campos e atributos}{8}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}frequencia}{8}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}x}{8}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}y}{8}{subsubsection.4.2.2.3}%
+\contentsline {section}{\numberline {4.3}Referência à estrutura Nefasto}{9}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Descrição detalhada}{9}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Documentação dos campos e atributos}{9}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}prox}{9}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}x}{9}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}y}{9}{subsubsection.4.3.2.3}%
+\contentsline {chapter}{\numberline {5}Documentação do ficheiro}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Referência ao ficheiro C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/dados.h}{11}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Descrição detalhada}{11}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/dados.h}{12}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Referência ao ficheiro C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/funcoes.c}{12}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Descrição detalhada}{13}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Documentação das macros}{13}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}\_CRT\_SECURE\_NO\_WARNINGS}{13}{subsubsection.5.3.2.1}%
+\contentsline {subsection}{\numberline {5.3.3}Documentação das funções}{13}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}carregarFicheiro()}{13}{subsubsection.5.3.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.3.2}criarAntena()}{13}{subsubsection.5.3.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3.3}criarInserirNefasto()}{14}{subsubsection.5.3.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.4}gravarBinario()}{14}{subsubsection.5.3.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.3.5}inserirAntena()}{14}{subsubsection.5.3.3.5}%
+\contentsline {subsubsection}{\numberline {5.3.3.6}lerBinario()}{14}{subsubsection.5.3.3.6}%
+\contentsline {subsubsection}{\numberline {5.3.3.7}listarAntenas()}{14}{subsubsection.5.3.3.7}%
+\contentsline {subsubsection}{\numberline {5.3.3.8}listarNefastos()}{14}{subsubsection.5.3.3.8}%
+\contentsline {subsubsection}{\numberline {5.3.3.9}removerAntena()}{15}{subsubsection.5.3.3.9}%
+\contentsline {subsection}{\numberline {5.3.4}Documentação das variáveis}{15}{subsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.4.1}maxX}{15}{subsubsection.5.3.4.1}%
+\contentsline {subsubsection}{\numberline {5.3.4.2}maxY}{15}{subsubsection.5.3.4.2}%
+\contentsline {section}{\numberline {5.4}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/funcoes.c}{15}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Referência ao ficheiro C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/funcoes.h}{18}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Descrição detalhada}{18}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Documentação das funções}{19}{subsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.1}carregarFicheiro()}{19}{subsubsection.5.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.5.2.2}criarAntena()}{19}{subsubsection.5.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.3}criarInserirNefasto()}{19}{subsubsection.5.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.5.2.4}gravarBinario()}{19}{subsubsection.5.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.5.2.5}inserirAntena()}{19}{subsubsection.5.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.5.2.6}lerBinario()}{20}{subsubsection.5.5.2.6}%
+\contentsline {subsubsection}{\numberline {5.5.2.7}listarAntenas()}{20}{subsubsection.5.5.2.7}%
+\contentsline {subsubsection}{\numberline {5.5.2.8}listarNefastos()}{20}{subsubsection.5.5.2.8}%
+\contentsline {subsubsection}{\numberline {5.5.2.9}removerAntena()}{20}{subsubsection.5.5.2.9}%
+\contentsline {section}{\numberline {5.6}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/funcoes.h}{21}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Referência ao ficheiro C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/main.c}{21}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Descrição detalhada}{21}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Documentação das funções}{22}{subsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.1}main()}{22}{subsubsection.5.7.2.1}%
+\contentsline {section}{\numberline {5.8}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/user/source/repos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Antenas01/main.c}{22}{section.5.8}%
