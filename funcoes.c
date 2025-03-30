@@ -23,7 +23,7 @@ int maxX = 0, maxY = 0; // Variáveis globais para limites da matriz
 
 /**
 * @brief cria antena
-* @param [in]	freq	frequencia da antena, x e y coordenadas
+* @param [in] freq frequencia da antena, x e y coordenadas
 * @return apontador para a antena criada
 */
 Antena* criarAntena(char freq, int x, int y) {
