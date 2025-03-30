@@ -1,0 +1,70 @@
+\doxysection{C\+:/\+Users/user/source/repos/\+Antenas01/main.c}
+\hypertarget{main_8c_source}{}\label{main_8c_source}\mbox{\hyperlink{main_8c}{Ir para a documentaÃ§Ã£o deste ficheiro.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00011}00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{funcoes_8h}{funcoes.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00012}00012\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00013}00013\ \textcolor{preprocessor}{\#include\ <locale.h>}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00015}00015\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00017}00017\ \textcolor{keywordtype}{int}\ main()\ \{}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00018}00018\ \ \ \ \ setlocale(LC\_ALL,\ \textcolor{stringliteral}{"{}Portuguese"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00019}00019\ \ \ \ \ \mbox{\hyperlink{struct_antena}{Antena}}*\ inicio\ =\ NULL;\ \textcolor{comment}{//\ Lista\ vazia}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00020}00020\ \ \ \ \ \mbox{\hyperlink{struct_antena}{Antena}}*\ inicio2\ =\ NULL;\textcolor{comment}{//\ para\ nao\ estragar\ a\ inicio\ a\ ler\ do\ binario,\ por\ segurança}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00021}00021\ \ \ \ \ \mbox{\hyperlink{struct_nefasto}{Nefasto}}*\ inicio4\ =\ NULL;\ \textcolor{comment}{//\ Lista\ de\ efeitos\ nefastos\ vazia}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00023}00023\ \ \ \ \ \textcolor{comment}{//\ Carregar\ as\ antenas\ do\ ficheiro}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00024}00024\ \ \ \ \ inicio\ =\ \mbox{\hyperlink{funcoes_8c_a2aea4bc31a61b06320c0c7994d0ff24b}{carregarFicheiro}}(\textcolor{stringliteral}{"{}antenas.txt"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00026}00026\ \ \ \ \ \textcolor{comment}{//\ Teste:\ listar\ as\ antenas\ carregadas}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00027}00027\ \ \ \ \ printf(\textcolor{stringliteral}{"{}Lista\ de\ Antenas\ Ordenada:\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00028}00028\ \ \ \ \ \mbox{\hyperlink{funcoes_8c_a00a0630f569a848afaa336084a51546c}{listarAntenas}}(inicio);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00030}00030\ \ \ \ \ \textcolor{comment}{//\ tenta\ remover\ a\ antena\ na\ posição\ (4,4)\ que\ nao\ existe}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00031}00031\ \ \ \ \ printf(\textcolor{stringliteral}{"{}\(\backslash\)nRemover\ antena\ na\ posicao\ (3,4)...\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00032}00032\ \ \ \ \ inicio\ =\ \mbox{\hyperlink{funcoes_8c_afc076f372a5739f4f6ca94531a4bb889}{removerAntena}}(inicio,\ 3,\ 4);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00033}00033\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00034}00034\ \ \ \ \ \textcolor{comment}{//\ remove\ antena\ que\ existe}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00035}00035\ \ \ \ \ printf(\textcolor{stringliteral}{"{}\(\backslash\)nRemover\ antena\ na\ posicao\ (3,0)...\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00036}00036\ \ \ \ \ inicio\ =\ \mbox{\hyperlink{funcoes_8c_afc076f372a5739f4f6ca94531a4bb889}{removerAntena}}(inicio,\ 3,\ 0);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00037}00037\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00038}00038\ \ \ \ \ \textcolor{comment}{//\ Listar\ novamente}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00039}00039\ \ \ \ \ printf(\textcolor{stringliteral}{"{}\(\backslash\)nLista\ de\ Antenas:\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00040}00040\ \ \ \ \ \mbox{\hyperlink{funcoes_8c_a00a0630f569a848afaa336084a51546c}{listarAntenas}}(inicio);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00042}00042\ \ \ \ \ \textcolor{comment}{//adicionar\ de\ novo\ antena\ posicao\ 3,0}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00043}00043\ \ \ \ \ printf(\textcolor{stringliteral}{"{}\(\backslash\)nAdicionar\ antena\ na\ posicao\ (3,0)...\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00044}00044\ \ \ \ \ inicio\ =\ \mbox{\hyperlink{funcoes_8c_a48fed8d5c3d07a556340b02ea94c2980}{inserirAntena}}(inicio,\ \mbox{\hyperlink{funcoes_8c_a45d602813bfa39b2875ba12549e962c5}{criarAntena}}(\textcolor{charliteral}{'E'},\ 3,\ 0));}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00045}00045\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00046}00046\ \ \ \ \ printf(\textcolor{stringliteral}{"{}\(\backslash\)nLista\ de\ Antenas\ antes\ de\ imprimir\ para\ binario:\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00047}00047\ \ \ \ \ \mbox{\hyperlink{funcoes_8c_a00a0630f569a848afaa336084a51546c}{listarAntenas}}(inicio);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00049}00049\ \ \ \ \ printf(\textcolor{stringliteral}{"{}gravar\ binario\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00050}00050\ \ \ \ \ \mbox{\hyperlink{funcoes_8c_a8dceb384749efce28823cce24538ecb1}{GravarBinario}}(\textcolor{stringliteral}{"{}antenas1.bin"{}},\ inicio);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00052}00052\ \ \ \ \ \textcolor{comment}{//ler\ bin\ e\ imprimir\ ecran}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00053}00053\ \ \ \ \ printf(\textcolor{stringliteral}{"{}lido\ do\ binario\ e\ escrever\ na\ struct\ inicio2:\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00054}00054\ \ \ \ \ inicio2\ =\ \mbox{\hyperlink{funcoes_8c_a21c391e96c5c7a640d8dc9ebf91dd7cc}{LerBinario}}(\textcolor{stringliteral}{"{}antenas1.bin"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00055}00055\ \ \ \ \ \mbox{\hyperlink{funcoes_8c_a00a0630f569a848afaa336084a51546c}{listarAntenas}}(inicio2);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00056}00056\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00057}00057\ \ \ \ \ \textcolor{comment}{//tratar\ nefastos}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00058}00058\ \ \ \ \ printf(\textcolor{stringliteral}{"{}\(\backslash\)nEfeitos\ nefastos:\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00059}00059\ \ \ \ \ printf(\textcolor{stringliteral}{"{}a\ criar\ nefastos\ manualmente\ para\ debug..."{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00060}00060\ \ \ \ \ inicio4\ =\ criarInserirNefasto(inicio4,\ 1,\ 1);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00061}00061\ \ \ \ \ inicio4\ =\ criarInserirNefasto(inicio4,\ 1,\ 3);\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00062}00062\ \ \ \ \ inicio4\ =\ criarInserirNefasto(inicio4,\ 1,\ 4);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00063}00063\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00064}00064\ \ \ \ \ printf(\textcolor{stringliteral}{"{}listar\ nefastos\ criados:\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00065}00065\ \ \ \ \ listarNefastos(inicio4);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00066}00066\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00067}00067\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00068}00068\ \ \ \ \ \textcolor{comment}{//\ falta\ juntar\ os\ efeitos\ nefastos,\ nao\ está feito}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00069}00069\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00070}00070\ \ \ \ \ \textcolor{comment}{//libertar\ memoria}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00071}00071\ \ \ \ \ free(inicio);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00072}00072\ \ \ \ \ free(inicio2);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00073}00073\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00074}00074\ \}}
+
+\end{DoxyCode}
