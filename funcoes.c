@@ -194,7 +194,11 @@ Antena* removerAntena(Antena* inicio, int x, int y) {
 
 #pragma region EfeitosNefastos
 // EFEITOS NEFASTOS
-//função adicionar Nefasto
+/**
+* @brief Criar e adicionar na lista o efeito nefasto
+* @param [in] apontador para a primeira antena, x e y coordenadas do efeito nefasto
+* @return novamente o apontador para a primeira antena (ou lista de antenas )
+*/
 Nefasto* criarInserirNefasto(Nefasto* lista, int x, int y) {
     Nefasto* novo = (Nefasto*)malloc(sizeof(Nefasto));
     if (!novo) return lista; // Falha ao alocar memória
@@ -205,6 +209,11 @@ Nefasto* criarInserirNefasto(Nefasto* lista, int x, int y) {
 
     return novo;
 }
+/**
+* @brief Listar parao o ecra os efeitos nefastos guardados na sua lista
+* @param [in] apontador para a primeira antena
+* @return VOID, nao retorna nada
+*/
 void listarNefastos(Nefasto* lista) {
     Nefasto* atual = lista;
     while (atual != NULL) {
@@ -213,7 +222,7 @@ void listarNefastos(Nefasto* lista) {
     }
 }
 
-// função efeitos nefastos REVER ESTA FUNCAO
+// função gerar efeitos nefastos baseado na lista de antenas FALTA FAZER
 
 
  
